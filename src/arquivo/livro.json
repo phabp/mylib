@@ -1,0 +1,11 @@
+[
+  {
+    "nome": "Crime e Castigo",
+    "autor": "Dostoievski",
+    "editora": "Martin Claret",
+    "quantidade": 1,
+    "genero": "romance",
+    "disponivel": true,
+    "codigo": "LIV1749168675087"
+  }
+] 

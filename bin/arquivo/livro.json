@@ -1,0 +1,56 @@
+[
+  {
+    "nome": "a gloria de cristo",
+    "autor": "john owen",
+    "editora": "pes",
+    "quantidade": 1,
+    "genero": "teologia",
+    "disponivel": true,
+    "codigo": "LIV1749131833585"
+  },
+  {
+    "nome": "o hobbit",
+    "autor": "tolkien",
+    "editora": "harper collins",
+    "quantidade": 1,
+    "genero": "ficção",
+    "disponivel": true,
+    "codigo": "LIV1749131971223"
+  },
+  {
+    "nome": "árvore e folha",
+    "autor": "tolkien",
+    "editora": "harper collins",
+    "quantidade": 0,
+    "genero": "artigos",
+    "disponivel": false,
+    "codigo": "LIV1749132107193"
+  },
+  {
+    "nome": "Crime e Castigo",
+    "autor": "Dostoievski",
+    "editora": "Martin Claret",
+    "quantidade": 1,
+    "genero": "romance",
+    "disponivel": true,
+    "codigo": "LIV1749168675087"
+  },
+  {
+    "nome": "o sol é para todos",
+    "autor": "harper lee",
+    "editora": "globo",
+    "quantidade": 1,
+    "genero": "ficção",
+    "disponivel": true,
+    "codigo": "LIV1749234722522"
+  },
+  {
+    "nome": "o sol é para todos",
+    "autor": "harper lee",
+    "editora": "globo",
+    "quantidade": 1,
+    "genero": "ficçao",
+    "disponivel": true,
+    "codigo": "LIV1749234787932"
+  }
+]
