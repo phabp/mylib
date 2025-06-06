@@ -1,2 +1,1 @@
-# mylib
-A library management system for small libraries
+# mylib : A library management system for small libraries
