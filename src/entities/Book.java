@@ -73,7 +73,7 @@ public class Book {
         System.out.print("Editora: ");
         String editora = sc.nextLine();
 
-        // Verifica se o livro já existe (baseado em nome, autor e editora)
+        
         boolean encontrado = false;
         for (Book livro : biblioteca) {
             if (livro.getNome().equalsIgnoreCase(nome) &&
@@ -88,7 +88,7 @@ public class Book {
             }
         }
 
-        // Se não encontrou o livro, cria um novo
+       
         if (!encontrado) {
             String codigo = "LIV" + System.currentTimeMillis();
             boolean disponivel = true;
