@@ -37,7 +37,7 @@ O sistema permite o controle do seu acervo, garantindo que você tenha sempre do
 
 ## Próximos aprimoramentos:
 
-A finalização completa do sistema inclui o desenvolvimento de um front-end com **React.js**, já em andamento e previsto para as próximas semanas.
+A finalização completa do sistema inclui o desenvolvimento de um front-end com **React.js**, já em andamento e previsto para em breve. 
 
 ## Como executar o sistema:
 
@@ -48,4 +48,4 @@ Até a implementação do front-end, o usuário pode executar o sistema diretame
 > "Um leitor vive mil vidas antes de morrer. O homem que não lê vive apenas uma."  
 > — George R. R. Martin
 
-A tecnologia deve servir à melhoria da vida do ser humano nas mais diversas áreas, e não ser um fim em si mesma. Este projeto busca contribuir para esse propósito, incentivando o hábito da leitura e a organização de bibliotecas.
+A tecnologia deve servir à melhoria da vida das pessoas nas mais diversas áreas, e não ser um fim em si mesma. Este projeto busca contribuir para esse propósito, incentivando o hábito da leitura e a organização de bibliotecas.
