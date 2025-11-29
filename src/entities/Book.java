@@ -94,7 +94,7 @@ public class Book {
             }
         }
 
-        // Se não encontrou o livro, cria um novo
+       
         if (!encontrado) {
             String codigo = "LIV" + System.currentTimeMillis();
             boolean disponivel = true;
