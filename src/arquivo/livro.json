@@ -7,5 +7,14 @@
     "genero": "romance",
     "disponivel": true,
     "codigo": "LIV1749168675087"
+  },
+  {
+    "nome": "Guerra dos tronos",
+    "autor": "george martin",
+    "editora": "leya",
+    "quantidade": 2,
+    "genero": "",
+    "disponivel": true,
+    "codigo": "LIV1764444225713"
   }
-] 
+]

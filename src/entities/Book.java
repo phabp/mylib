@@ -40,9 +40,13 @@ public class Book {
         this.genero = genero;
         this.disponivel = disponivel;
     }
+    
+    public static boolean quantidadeValida(int quantidade) {
+        return quantidade > 0;
+    }
+
 
     
-
     public static void adicionarLivros(List<Book> biblioteca, Scanner sc) {
         System.out.print("Nome do livro: ");
         String nome = sc.nextLine();
@@ -56,16 +60,18 @@ public class Book {
             try {
                 quantidade = sc.nextInt();
                 sc.nextLine(); // Limpar buffer
-                if (quantidade <= 0) {
+
+                if (!quantidadeValida(quantidade)) {
                     System.out.println("Erro: A quantidade deve ser maior que zero.");
                     continue;
                 }
                 break;
             } catch (InputMismatchException e) {
                 System.out.println("Erro: Insira um número válido.");
-                sc.nextLine(); // Limpar input inválido
+                sc.nextLine();
             }
         }
+
 
         System.out.print("Gênero: ");
         String genero = sc.nextLine();
@@ -73,7 +79,7 @@ public class Book {
         System.out.print("Editora: ");
         String editora = sc.nextLine();
 
-        // Verifica se o livro já existe (baseado em nome, autor e editora)
+        
         boolean encontrado = false;
         for (Book livro : biblioteca) {
             if (livro.getNome().equalsIgnoreCase(nome) &&
