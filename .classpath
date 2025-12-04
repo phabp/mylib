@@ -6,11 +6,19 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="features"/>
 	<classpathentry kind="lib" path="C:/Users/paulo/Downloads/gson-2.10.1.jar">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="lib/cucumber-core-7.28.0.jar"/>
+	<classpathentry kind="lib" path="lib/cucumber-java-7.28.0.jar"/>
+	<classpathentry kind="lib" path="lib/cucumber-junit-7.28.0.jar"/>
+	<classpathentry kind="lib" path="lib/cucumber-plugin-7.28.0.jar"/>
+	<classpathentry kind="lib" path="lib/tag-expressions-6.1.2.jar"/>
+	<classpathentry kind="lib" path="lib/gherkin-34.0.0.jar"/>
+	<classpathentry kind="lib" path="lib/cucumber-gherkin-7.28.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
